@@ -69,6 +69,7 @@ button#hamburgerBtn {
     align-items: flex-end;
     padding: 4rem 1rem;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -107,7 +108,7 @@ button#hamburgerBtn {
     text-transform: uppercase;
     color: #fff;
     margin: 0;
-    font-size: 3.625rem;
+    font-size: 3.25rem;
     font-weight: 700;
     letter-spacing: .2375rem;
     
@@ -115,9 +116,10 @@ button#hamburgerBtn {
 
 .h-line {
     height: 10px;
-    width: 22rem;
+    width: 20rem;
     background-color: #fff;
     margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 /* END OF HERO SECTION */
@@ -222,14 +224,13 @@ button#hamburgerBtn {
 
 .fourth-text-area {
     padding: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
  .h-line-2{
     height: 10px;
     max-width: 70%;
     background-color: #e71a23;
-    margin-left: 60px;
     margin-top: 1.5rem;
 } 
 
