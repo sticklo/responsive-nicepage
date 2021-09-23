@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+  
+}
+
+body{
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* END OF GLOBAL STYLES */
+
+header {
+    padding: 1rem 0.7rem;
+}
+
+.logo {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button#hamburgerBtn {
+    background: none;
+    border: none;
+    color: #111;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-position: 81.49% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800px; 
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem 1rem;
+    justify-content: center;
+
+}
+
+
+
+.hero img {
+    width:70px ;
+    height: 70px;
+    
+}
+
+.hero-icons {
+    display: none;
+}
+
+.hero-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-text h3 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    margin: -20px;
+}
+
+.hero-text h1 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 3.625rem;
+    font-weight: 700;
+    letter-spacing: .2375rem;
+    
+}
+
+.h-line {
+    height: 10px;
+    width: 22rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+/* END OF HERO SECTION */
+
+.second-section {
+    height: 75vh;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.second-section-text {
+    padding: 2rem;
+    text-align: center;
+}
+
+.second-section-text h5, h1{
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;  
+    word-wrap: break-word;
+}
+
+.second-section-text h5 {
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+.second-section-text h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+}
+
+.second-section-text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.btn-1 {
+    padding: 16px 36px;
+    background: #e71a23;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #e71a23;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.btn-1:hover{
+    background-color: #c02830;
+    cursor: pointer;
+}
+
+/* END OF SECOND SECTION */ 
+
+.third-section {
+    padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.third-right h2,h3 {
+    font-family: Roboto,sans-serif;
+}
+
+.third-right h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.third-right h3 {
+    font-size: 1.5rem;
+    color: #e71a23;
+}
+
+/* END OF THIRD SECTION */
+
+
+.fourth-section {
+    height: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-text-area h1 {
+    text-transform: uppercase;
+    font-size: 3.12rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #104e92;
+}
+
+.fourth-text-area {
+    padding: 2rem;
+    text-align: center;
+}
+
+ .h-line-2{
+    height: 10px;
+    max-width: 70%;
+    background-color: #e71a23;
+    margin-left: 60px;
+    margin-top: 1.5rem;
+} 
+
+.fourth-text-area p {
+    font-size: 1.rem;
+    word-wrap: break-word;
+}
+
+/*END OF FOURTH SECTION */
+
+.fifth-section {
+    padding: 2rem;
+}
+
+.fifth-section h1{
+    text-align: center;
+    font-size: 2.11rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rdc-icon {
+    height: 4.125rem;
+    width: 4.125rem;
+}
+
+.flex-card h1 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.flex-card p {
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 0.8925rem;
+    padding-top: 1.25rem;
+}
+
+/* END OF FIFTH SECTION */ 
+
+.sixth-section {
+    
+    height: auto;
+    background-color: #104e92;
+}
+
+.sixth-area {
+    padding: 3rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-area .left h3,h6 {
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.sixth-area .left h6{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.89rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.sixth-area .left h3{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.sixth-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-area .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sixth-area .right .right-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sixth-area .right .right-btm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/*END OF SIXTH SECTION */
+
+.seventh-section {
+    padding: 3rem;
+    height: auto;
+}
+
+.seventh-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.seventh-section p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    word-wrap: break-word;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.seventh-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.3rem;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.btn-2 {
+    
+    color: #454545;
+    border:1px solid #454545;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    width: 12rem;
+    text-align: center;
+}
+
+.btn-2:hover{
+    border: 1px solid #e71a23;
+    color: rgba(0, 0, 255, 0.315);
+}
+
+#red-btn {
+    width: 12rem;
+}
