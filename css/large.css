@@ -23,9 +23,13 @@
         height: 75vh;
     }
 
-    .second-section p {
+     .second-section-text p {
+        max-width: 200rem;
         word-wrap: break-word;
-    }
+        text-align: center;
+    } 
+
+    
 
     .third-section {
         flex-direction: row;
@@ -36,9 +40,51 @@
     }
 
     .fourth-text-area {
-        margin-top: 30rem;
+        margin-top: 17.5rem;
     }
 
+    .fourth-text-area h1 {
+        font-size: 4.5rem;
+    }
+
+    .fourth-text-area p {
+        font-size: 1.6rem;
+    }
+
+    
+
+    .flex-card h4 {
+        font-size: 2.1rem;
+    }
+    .flex-card p {
+        font-size: 1rem;
+    }
+
+    .sixth-area {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .sixth-area .right {
+        width: 50%;
+     
+    }
+
+    .sixth-area .left h3 {
+        max-width: 60%;
+        margin-top: 0;
+    }
+
+
+    .sixth-area .left h6{
+        margin: 0;
+        margin-bottom: 0.9rem;
+        font-size: 1.2rem;
+    }
+
+    .sixth-area .left {
+        align-self: center;
+    }
 
 
     }
