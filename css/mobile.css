@@ -89,6 +89,7 @@ button#hamburgerBtn {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -222,6 +223,12 @@ button#hamburgerBtn {
     color: #104e92;
 }
 
+.h-break-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .fourth-text-area {
     padding: 2rem;
     text-align: left;
@@ -257,6 +264,11 @@ button#hamburgerBtn {
     flex-direction: column;
     justify-content: center;
 }
+
+.flex-card p{
+    word-wrap: break-word;
+}
+
 
 .rdc-icon {
     height: 4.125rem;
@@ -315,6 +327,10 @@ button#hamburgerBtn {
 .sixth-area {
     display: flex;
     flex-direction: column;
+}
+
+.sixth-area .left h3 {
+    word-wrap: break-word;
 }
 
 .sixth-area .right {

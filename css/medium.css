@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
     .hero {
-        
+        justify-content: flex-start;
     }
     
     .hero-icons {
@@ -10,8 +10,114 @@
         margin-top: 20px;
     }
 
+    .hero-icons img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .hero-icons h5 {
+        color: #fff;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .hero-text {
+        justify-content: flex-start;
+        margin-bottom: 7rem;
+    
+    }
 
 
+
+    .second-section {
+        height: 50vh;
+    }
+
+
+    .fourth-section {
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .fourth-section img {
+        margin-bottom: 0rem;
+    }
+
+    .fourth-text-area {
+        max-width: 50%;
+        padding: 0;
+        margin-top: 7rem;
+    }
+
+    .fourth-text-area h1 {
+        margin: 0;
+    }
+
+    .fourth-text-area p {
+        word-wrap: break-word;
+        max-width: 85%;
+    }
+    
+.fifth-section h1{
+    text-align: left;
+    font-size: 3.1251rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.flex-card h4 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
+.sixth-area .right {
+    flex-direction: column;
+ 
+}
+
+
+.sixth-area .right .right-btm {
+    flex-direction: row;
+}
+
+.sixth-area .right .right-top {
+    flex-direction: row;
+}
+
+.sixth-area .right .right-top{
+    gap: 1rem;
+}
+
+.sixth-area .right .right-btm{
+    gap: 1rem;
+}
+
+
+
+.sixth-area .right .right-top, .right-btm>img {
+    width: 50%;
+}
+
+.seventh-btns {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+   
+}
 
     }
     
