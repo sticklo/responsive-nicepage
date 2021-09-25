@@ -61,7 +61,7 @@ button#hamburgerBtn {
 
   .hero {
     background-image: url("../images/hero-bg.jpg");
-    background-position: 81.49% 50%;
+    background-position: 71% 6%;
     background-repeat: no-repeat;
     background-size:cover;
     height: 800px; 
@@ -401,4 +401,35 @@ button#hamburgerBtn {
 
 #red-btn {
     width: 12rem;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    text-align: center;
+    
+}
+footer p{
+    max-width: 70%;
+    margin: 2.25rem 25%;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+.links{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+   
+}
+.links span{
+    color: #fff;
+    padding: 0 5px;
+}
+.links a{
+    color:#abcff7;
 }
