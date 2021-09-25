@@ -34,8 +34,13 @@
     .third-section {
         flex-direction: row;
         justify-content: space-evenly;
+        gap: 2rem;
     }
     .third-left {
+        width: 50%;
+    }
+
+    .third-right {
         width: 50%;
     }
 
